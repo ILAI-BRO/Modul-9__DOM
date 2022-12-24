@@ -7,19 +7,29 @@ body {
     padding: 50px 0px
 }
 
-.form {
-    display: flex;
-    flex-direction: column;
-}
-
-.input {
+input {
     margin: 25px 0px;
+    max-width: 150px;
+}
+button {
+    max-width: 150px;
+    padding: 10px 20px;
+    background-color: aqua;
+    border-radius: 5px;
+
 }
 .body__form {
     padding: 10px;
     border: 2px solid;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
     
 }
 .result img {
+    
     max-width: 500px;
+    margin: 25px 0px;
 }
